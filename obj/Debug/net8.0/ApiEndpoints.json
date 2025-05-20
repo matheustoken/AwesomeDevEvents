@@ -1,0 +1,102 @@
+[
+  {
+    "ContainingType": "AwesomeDevEventsAPI.Controllers.DevEVentsController",
+    "Method": "GetAll",
+    "RelativePath": "api/dev-events",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AwesomeDevEventsAPI.Controllers.DevEVentsController",
+    "Method": "Post",
+    "RelativePath": "api/dev-events",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "devEvent",
+        "Type": "AwesomeDevEventsAPI.Entities.DevEvent",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AwesomeDevEventsAPI.Controllers.DevEVentsController",
+    "Method": "GetById",
+    "RelativePath": "api/dev-events/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AwesomeDevEventsAPI.Controllers.DevEVentsController",
+    "Method": "Update",
+    "RelativePath": "api/dev-events/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "input",
+        "Type": "AwesomeDevEventsAPI.Entities.DevEvent",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AwesomeDevEventsAPI.Controllers.DevEVentsController",
+    "Method": "Delete",
+    "RelativePath": "api/dev-events/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AwesomeDevEventsAPI.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[AwesomeDevEventsAPI.WeatherForecast, AwesomeDevEventsAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]
